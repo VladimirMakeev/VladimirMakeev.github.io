@@ -1,0 +1,33 @@
+title: Vladimir Makeev's personal blog
+description: Vladimir Makeev's personal blog.
+author_name: "Vladimir Makeev"
+logo_url: https://avatars2.githubusercontent.com/u/16177408?s=460&v=4
+baseurl: ""
+url: ""
+github_username: VladimirMakeev
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: heiswayi/the-plain
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
+
