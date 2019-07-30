@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Учеба, удон, уэно"
-date:   2019-07-28 21:36:00 +0900
+date:   2019-07-29 21:36:00 +0900
 categories: travel japan
 ---
 ### Учеба
